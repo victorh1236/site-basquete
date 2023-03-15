@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Arena do basquete</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav id="menu">
+                <h1 class="logo"><a href="#about">Arena do basquete</a></h1>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#news">Noticias</a></li>
+                    <li><a href="#subscription">Inscreva-se/Entrar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="text-container">
+                    <h2>Descubra tudo sobre basquete</h2>
+                    <p>Conheça o basquete de uma forma que você nunca viu antes! Inscreva-se e tenha acesso a todos nossos conteudos</p>
+                    <button type="button"><a href="#subscription">Inscreva-se</a></button>
+                </div>
+                <div class="img_container">
+                </div>
+            </section>
+            <hr>
+
+            <section id="articles">
+                <h2><a href="#news">Noticias</a></h2>
+                <div class="articles-box">
+
+                    <div class="articles-items">
+                        <figure>
+                            <img src="/imagensb/lebron.jpg" alt="Alexandre, O Grande">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>10 Fatos Sobre Lebron James</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, reiciendis.</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                    <div class="articles-items">
+                        <figure>
+                            <img src="/imagensb/jordan (1).webp" alt="Henrique VIII">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>Porque Jordan é o maior de todos os tempos</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, adipisci!</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                    <div class="articles-items">
+                        <figure>
+                            <img src="/imagensb/arena.jpg" alt="">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>10 melhores arenas para se conhecer na NBA</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quas.</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <section id="subscription">
+                <h2>Entrar/Cadastre-se</h2>
+                <div class="subscription-container">
+                    <div class="sign-up">
+                        <form>
+                            <h3>Cadastrar-se</h3>
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" placeholder="Escreva seu nome" required>
+                            </div>
+                            <div>
+                                <label for="nickname">Nome de Usuário</label>
+                                <input type="text" id="nickname" placeholder="Escreva um nome de usuário" required>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="seu@email.com" required>
+                            </div>
+                            <div>
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" placeholder="Escreva uma senha" required>
+                            </div>
+                            <button type="submit">Cadastrar</button>
+                        </form>
+                    </div>
+                    <div class="sign-in">
+                        <form>
+                            <h3>Entrar</h3>
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input id="nome" type="text" placeholder="Escreva seu nome" required >
+                            </div>
+                            <div>
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" placeholder="Escreva sua senha" required>
+                            </div>
+                                <button type="submit">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <h1 class="logo"><a href="#about">Arena do basquete</a></h1>
+                
+                <div>
+                    <h3 >Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href=""><img src="/imagensb/facebook.png" alt="facebook"></a>
+                        <a href=""><img src="/imagensb/instagram.png" alt="instagram"></a>
+                        <a href=""><img src="/imagensb/youtube.png" alt="youtube"></a>
+                    </div>
+                    <div>
+                        <h3>Endereço</h3>
+                        <p>
+                            Rua do basquete, nº2323, NBA <br>
+                            Los Angeles - California
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p>&copy Victor Hugo</p>
+        </footer>
+    </div>
+</body>
+</html>
